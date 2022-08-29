@@ -1,2 +1,2 @@
 # Aviators
-test
+The Type Certificate Data Sheetis (TCDS) is a design approval administered by the FAA that records information about each aircraft model. Most TCDS are stored in the form of PDF files, so there are many inconveniences in the process of adding or modifying. The purpose of this project is to automatically convert unstructured TCDS into structured messages, and to provide queryers with the most relevant TCDS content for the input message.
