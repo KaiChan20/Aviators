@@ -13,7 +13,7 @@ excel_output = "/Users/rohitvarma/Desktop/CAPSTONE/output"
 
 def grapPDF(path):
     pdfFileObj = open(path, 'rb')
-    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)  # creating a pdf reader object
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
     try:
     textinpage = pageObj.extractText()
     pdfFileObj.close()
