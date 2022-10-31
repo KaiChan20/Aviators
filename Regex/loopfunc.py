@@ -1,7 +1,7 @@
-from email.policy import strict
+!pip install pycryptodome
 import os
-import pypdf2
-path = "" #folder with all PDFs
+import PyPDF2
+path = r"" #folder with all PDFs
 
 list_files = os.listdir(path)
 print(list_files)
@@ -14,7 +14,7 @@ for ele in list_files:
     pdfFileObj = open(ele, 'rb' ,) 
         
     #creating a pdf reader object 
-    pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj, strict = False) 
 
         
     # printing number of pages in pdf file 
